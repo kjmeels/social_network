@@ -13,5 +13,5 @@ templating = Jinja2Templates(
     directory=BASE_DIR / 'templates',
     context_processors=[info_mixin]
 )
-static = StaticFiles(directory=BASE_DIR / 'static')
+static = StaticFiles(directory='static')
 media = StaticFiles(directory=BASE_DIR / 'media')
